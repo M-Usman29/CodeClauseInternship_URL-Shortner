@@ -17,7 +17,7 @@ export default function Footer() {
 
   return (
     <div className={`footer ${showFooter ? 'visible' : ''}`}>
-      <p>&copy; All rights reserved with Muhammad Usman</p>
+      <p><b>&copy;  {new Date().getFullYear()}</b>&nbsp; All rights reserved with Muhammad Usman</p>
     </div>
   );
 }
