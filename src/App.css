@@ -36,7 +36,7 @@
     transform: rotate(360deg);
   }
 }
-/* App.css */
+
 body {
   margin: 0;
   padding: 0;
@@ -65,7 +65,7 @@ body {
 .navbar-nav .nav-item a.nav-link:hover {
   text-decoration: underline;
   color:rgb(166, 207, 207);
-  font-size: 18px; /* Adjust the size as needed */
+  font-size: 18px; 
   font-weight: bold;
   transform: scale(1.2);
 }

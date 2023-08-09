@@ -7,26 +7,29 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
+ /* Link*/
 } from "react-router-dom";
 function App() {
   return (
    <>
     <Router>
 
- 
-   <Navbar></Navbar>
+          <Navbar></Navbar>
    
-   <Routes>
+              <Routes>
    
-   <Route path="/home"  element={<div className="container my-5"><UrlInputSection></UrlInputSection></div>}></Route>
-   <Route path="/about"  element={<div className="container my-5"><About></About></div>}></Route>
-   <Route path="/"  element={<div className="container my-5"><UrlInputSection></UrlInputSection></div>}></Route>
+                  <Route path="/home"  element={<div className="container my-5"><UrlInputSection></UrlInputSection></div>}></Route>
+                  <Route path="/about"  element={<div className="container my-5"><About></About></div>}></Route>
+                  <Route path="/"  element={<div className="container my-5"><UrlInputSection></UrlInputSection></div>}></Route>
    
    
-   </Routes>
-   <Footer></Footer>
-   </Router>
+              </Routes>
+           
+           
+           <Footer></Footer>
+      
+      
+    </Router>
    </>
   );
 }
