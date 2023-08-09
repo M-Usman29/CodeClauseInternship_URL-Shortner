@@ -25,7 +25,7 @@ export default function UrlInputSection() {
   };
 
   return (
-    <div className="d-flex flex-column align-items-center justify-content-center vh-100">
+    <div className="d-flex flex-column align-items-center  vh-100"style={{ marginTop: '20vh' }}>
       <div className="text-center mb-4">
         <h4 className="h2 mb-0 "style={{color:"white",fontfamily: "Proximanova,sans-serif",fontSize:"40px"}}>Paste URL Here:</h4>
       </div>
