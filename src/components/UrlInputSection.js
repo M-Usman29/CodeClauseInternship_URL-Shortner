@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 export default function UrlInputSection() {
   const [inputUrl, setInputUrl] = useState('');
@@ -9,15 +10,16 @@ export default function UrlInputSection() {
     setInputUrl(event.target.value);
   };
 
-  const handleShortenClick = () => {
-    // Here, you can implement the logic to shorten the URL
-    // For demonstration purposes, let's just set a placeholder shortened URL
-    const placeholderShortenedUrl = 'https://short.ly/abcd123';
-    setShortenedUrl(placeholderShortenedUrl);
+  const handleShortenClick = async () => {
+    try {
+      const response = await axios.get(`http://tinyurl.com/api-create.php?url=${inputUrl}`);
+      setShortenedUrl(response.data);
+    } catch (error) {
+      console.error('Error shortening URL:', error);
+    }
   };
 
   const handleCopyClick = () => {
-    // Copy the shortened URL to clipboard
     navigator.clipboard.writeText(shortenedUrl);
     setCopied(true);
   };
