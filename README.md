@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+Project : URL Shortner Web App
+
+Project Video: 
+
+https://github.com/M-Usman29/CodeClauseInternship_URL-Shortner/assets/125122553/7d383611-f01d-4ba5-b305-20b38bc620a0
+
+
+
+Project Images:
+
+
+![Capture1](https://github.com/M-Usman29/CodeClauseInternship_URL-Shortner/assets/125122553/911ff064-c48d-4286-9cd0-faee78a0d274)
+
+
+![Capture2](https://github.com/M-Usman29/CodeClauseInternship_URL-Shortner/assets/125122553/9eb65eeb-da71-48ef-b472-91235eed6497)
+
+
+![Capture3](https://github.com/M-Usman29/CodeClauseInternship_URL-Shortner/assets/125122553/a23d24dd-0acd-4fd6-be92-6208c67c52d7)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
